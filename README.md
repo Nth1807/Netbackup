@@ -30,7 +30,7 @@ netbackup/
 ├── app.py              ← Flask backend (SSH + Git + REST API)
 ├── requirements.txt
 ├── config.json         ← Auto-generated khi save settings
-├── backups/            ← File .txt backup lưu local
+├── backups/            ← File .txt backup local save
 ├── git_work/           ← Temp folder clone GitHub repo
 └── static/
     └── index.html      ← Dashboard UI
@@ -44,7 +44,7 @@ netbackup/
 2. Fill in:
    - **GitHub Token**: Personal Access Token (requires `repo`)
      → https://github.com/settings/tokens/new
-   - **Repository**: `username/tên-repo` (The repository must already exist)
+   - **Repository**: `username/name-repo` (The repository must already exist)
    - **Branch**: `main` or another branch 
 3. Click **Save Settings**
 
